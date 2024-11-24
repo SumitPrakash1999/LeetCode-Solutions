@@ -14,7 +14,7 @@ public:
                 if(st.find(len)!=st.end()&&sum>0){
                     mini=min(mini,sum);
                 }
-                cout<<sum<<" ";
+                // cout<<sum<<" ";
             }
         }
         if(mini==0||mini==INT_MAX) return -1;
